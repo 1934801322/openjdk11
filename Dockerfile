@@ -1,3 +1,5 @@
+ARG GOARCH=adm64
+
 FROM openjdk:11-jdk-slim
 
 RUN apt update -qq -y; apt install python3-pip -y -qq; \
